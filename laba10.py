@@ -24,3 +24,8 @@ def merge_sorted(a,b):
     result += b[j:]
 
     return result
+
+
+print(merge_sorted([1, 3], [2, 4]))
+print(merge_sorted([], [1, 2]))
+print(merge_sorted([1, 1], [1]))
